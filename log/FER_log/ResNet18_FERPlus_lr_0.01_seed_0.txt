@@ -1,0 +1,16 @@
+==========
+>>> Loading data...
+==========
+Dataset FERPlus statistics:
+subset | # n_label | # images
+Train  |      7    |    28561
+Test   |      7    |     3574
+Data Loading Time:	 81.656
+==========
+>>> Build model...
+==========
+>>> Define loss function...
+==========
+>>> Define optimizer...
+==========
+>>> Start training...
