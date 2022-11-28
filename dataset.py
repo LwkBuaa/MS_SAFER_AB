@@ -1,4 +1,4 @@
-import torch, cv2, os, random
+import torch, os, random
 import torchvision.datasets
 from torch.utils import data
 from torchvision import transforms
@@ -121,7 +121,7 @@ class FERPlusDataset(data.Dataset):
         we choose 12, 8, 9, 21, 9, 24, 6 images for test;
         the mode are in order according to the fold number.
     '''
-    def __init__(self, data_dir=r"DataSet\FERPlus\data\emotion_cls", mode='train', ratio=0.1, fold=1, transform=None):
+    def __init__(self, data_dir=r"./DataSet/FERPlus/data/emotion_cls", mode='train', ratio=0.1, fold=1, transform=None):
         self.transform = transform
         self.mode = mode   # train set or test set
         self.ratio = ratio
